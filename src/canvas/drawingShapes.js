@@ -17,7 +17,7 @@ function roundedRect(ctx, x, y, width, height, radius) {
 
 const canvas = document.getElementById('canvas');
 if (canvas.getContext) {
-  var ctx = canvas.getContext('2d');
+  const ctx = canvas.getContext('2d');
 
   /**
    * drawing rect methods
